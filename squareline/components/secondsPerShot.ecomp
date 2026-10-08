@@ -1,0 +1,262 @@
+{
+  "guid": "GUID33995779-551195S285274",
+  "properties": [
+    {
+      "nid": 10,
+      "strtype": "OBJECT/Name",
+      "strval": "secondsPerShot",
+      "InheritedType": 10
+    },
+    {
+      "nid": 20,
+      "strtype": "OBJECT/Layout",
+      "InheritedType": 1
+    },
+    {
+      "Flow": 0,
+      "Wrap": false,
+      "Reversed": false,
+      "MainAlignment": 0,
+      "CrossAlignment": 0,
+      "TrackAlignment": 0,
+      "LayoutType": 0,
+      "nid": 30,
+      "strtype": "OBJECT/Layout_type",
+      "strval": "No_layout",
+      "InheritedType": 13
+    },
+    {
+      "nid": 40,
+      "strtype": "OBJECT/Transform",
+      "InheritedType": 1
+    },
+    {
+      "nid": 50,
+      "flags": 17,
+      "strtype": "OBJECT/Position",
+      "intarray": [
+        4,
+        -52
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": 60,
+      "flags": 17,
+      "strtype": "OBJECT/Size",
+      "intarray": [
+        150,
+        10
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": 70,
+      "strtype": "OBJECT/Align",
+      "strval": "CENTER",
+      "InheritedType": 3
+    },
+    {
+      "nid": 75,
+      "strtype": "OBJECT/Extend_click_area",
+      "InheritedType": 6
+    },
+    {
+      "nid": 90,
+      "flags": 1048576,
+      "strtype": "OBJECT/Flags",
+      "InheritedType": 1
+    },
+    {
+      "nid": 225,
+      "flags": 1048576,
+      "strtype": "OBJECT/Scrolling",
+      "InheritedType": 1
+    },
+    {
+      "nid": 300,
+      "strtype": "OBJECT/Scrollbar_mode",
+      "strval": "AUTO",
+      "InheritedType": 3
+    },
+    {
+      "nid": 310,
+      "strtype": "OBJECT/Scroll_direction",
+      "strval": "ALL",
+      "InheritedType": 3
+    },
+    {
+      "nid": 314,
+      "strtype": "OBJECT/Scroll_snap_x",
+      "strval": "NONE",
+      "InheritedType": 3
+    },
+    {
+      "nid": 315,
+      "strtype": "OBJECT/Scroll_snap_y",
+      "strval": "NONE",
+      "InheritedType": 3
+    },
+    {
+      "nid": 320,
+      "flags": 1048576,
+      "strtype": "OBJECT/States",
+      "InheritedType": 1
+    },
+    {
+      "nid": 1010,
+      "strtype": "SLIDER/Slider",
+      "InheritedType": 1
+    },
+    {
+      "nid": 1020,
+      "flags": 16,
+      "strtype": "SLIDER/Range",
+      "intarray": [
+        2,
+        22
+      ],
+      "InheritedType": 7
+    },
+    {
+      "nid": 1030,
+      "strtype": "SLIDER/Mode",
+      "strval": "NORMAL",
+      "InheritedType": 3
+    },
+    {
+      "nid": 1040,
+      "strtype": "SLIDER/Value",
+      "integer": 12,
+      "InheritedType": 6
+    },
+    {
+      "nid": 1050,
+      "strtype": "SLIDER/Value_left",
+      "InheritedType": 6
+    },
+    {
+      "part": "lv.PART.MAIN",
+      "childs": [],
+      "nid": 1060,
+      "strtype": "SLIDER/Style_main",
+      "strval": "lv.PART.MAIN, Rectangle, Pad, Transform",
+      "InheritedType": 11
+    },
+    {
+      "part": "lv.PART.INDICATOR",
+      "childs": [
+        {
+          "nid": 10000,
+          "strtype": "_style/StyleState",
+          "strval": "DEFAULT",
+          "childs": [
+            {
+              "nid": 10520,
+              "flags": 4096,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                10,
+                55,
+                159,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10530,
+              "flags": 256,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                15,
+                83,
+                242
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10550,
+              "strtype": "_style/Gradient direction",
+              "strval": "VER",
+              "InheritedType": 3
+            }
+          ],
+          "InheritedType": 1
+        }
+      ],
+      "nid": 1070,
+      "strtype": "SLIDER/Style_indicator",
+      "strval": "lv.PART.INDICATOR, Rectangle",
+      "InheritedType": 11
+    },
+    {
+      "part": "lv.PART.KNOB",
+      "childs": [
+        {
+          "nid": 10000,
+          "strtype": "_style/StyleState",
+          "strval": "DEFAULT",
+          "childs": [
+            {
+              "nid": 10520,
+              "flags": 4096,
+              "strtype": "_style/Bg_Color",
+              "intarray": [
+                15,
+                83,
+                242,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10530,
+              "flags": 256,
+              "strtype": "_style/Bg_gradiens_Color",
+              "intarray": [
+                10,
+                55,
+                159
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10550,
+              "strtype": "_style/Gradient direction",
+              "strval": "VER",
+              "InheritedType": 3
+            },
+            {
+              "nid": 10810,
+              "flags": 4096,
+              "strtype": "_style/Outline_Color",
+              "intarray": [
+                0,
+                0,
+                0,
+                255
+              ],
+              "InheritedType": 7
+            },
+            {
+              "nid": 10820,
+              "flags": 16,
+              "strtype": "_style/Outline_params",
+              "intarray": [
+                1,
+                0
+              ],
+              "InheritedType": 7
+            }
+          ],
+          "InheritedType": 1
+        }
+      ],
+      "nid": 1080,
+      "strtype": "SLIDER/Style_knob",
+      "strval": "lv.PART.KNOB, Rectangle, Pad",
+      "InheritedType": 11
+    }
+  ],
+  "saved_objtypeKey": "SLIDER"
+}

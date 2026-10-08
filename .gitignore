@@ -1,0 +1,23 @@
+# Build artifacts and compiled binaries
+*.bin
+*.hex
+*.elf
+*.o
+*.a
+*.d
+*.map
+build/
+.build/
+
+# Editor and OS metadata
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# SquareLine backups and cache
+squareline/backup/
+squareline/cache/
+*.bak
