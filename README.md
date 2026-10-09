@@ -2,6 +2,8 @@
 
 An intelligent CO2 monitor and shot counter for motorized SodaStream fizzy water makers, powered by the **Seeed Studio XIAO ESP32-S3** and the **Seeed Studio Round Display for XIAO** (1.28" 240×240 IPS touchscreen).
 
+![Completed Sodastream with Gauge](./images/PXL_20261009_002756583.jpg)
+
 ---
 
 ## Features
