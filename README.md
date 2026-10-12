@@ -28,10 +28,21 @@ An intelligent CO2 monitor and shot counter for motorized SodaStream fizzy water
 
 | Pin | Function | Notes |
 |---|---|---|
-| **D0** | SodaStream Valve Signal | Active HIGH (3.3V logic) during CO2 injection |
+| **D0** | SodaStream Valve Signal (TP3)| Active HIGH (3.3V logic) during CO2 injection |
 | **D6** | LCD Backlight Control | HIGH = Backlight ON, LOW = Backlight OFF (Sleep) |
 | **I2C (D4/D5)** | BM8563 RTC & Touch | Shared I2C bus for capacitive touch and RTC |
 | **SPI** | GC9A01 Display Driver | High-speed SPI interface |
+
+![Gauge Connection to Sodastream circuit board](./images/TP3Connection.jpg)
+
+---
+
+## 3d Prints
+
+### Instructions
+.stl files are provided to print a replacement cover to hold the round display. I used fine settings and a .4mm nozzel on my Bambu Labs A1 printer. The main conver is printed gauge down, you could probably get away with no supports with PLA (I used supports but it was minimal). Each of the tabs are printed separately and superglued in place. The cover has pads to aid in location. 
+
+![3d printed cover assembly](./images/Model_Assembly.png)
 
 ---
 
@@ -40,6 +51,7 @@ An intelligent CO2 monitor and shot counter for motorized SodaStream fizzy water
 ```
 ├── README.md               # Project documentation
 ├── .gitignore              # Git ignore rules for build artifacts
+├── 3d models/              # .stl files for replacement sodastream cover
 ├── ui/
 │   ├── ui.ino              # Main Arduino sketch & application logic
 │   ├── driver.h            # Touch & display driver configuration
